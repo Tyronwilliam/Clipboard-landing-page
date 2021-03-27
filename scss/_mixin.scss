@@ -1,0 +1,28 @@
+@mixin imgbox {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 70px;
+}
+@mixin flexmid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // @include flexmid;
+}
+@mixin fleximg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin bouton {
+  padding: 15px 80px;
+  background-color: $couleur-btn-un;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 1px 4px 0.7px 0.5px hsl(171, 66%, 23%);
+}
